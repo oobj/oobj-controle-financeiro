@@ -12,6 +12,12 @@ import javax.persistence.Table;
 import br.com.oobj.controlefinanceiro.domain.usuario.model.Usuario;
 import br.com.oobj.controlefinanceiro.model.support.AbstractEntity;
 
+/**
+ * Entidade que representa uma Conta.
+ * 
+ * @author Danilo Guimarães
+ *
+ */
 @Entity
 @Table(name = "conta")
 public class Conta extends AbstractEntity {
